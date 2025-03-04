@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "774411e0-35eb-4e7b-8539-244ce8f644c0",
+		"name": "Parcial 3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "39492336"
+	},
+	"item": [
+		{
+			"name": "Español",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Ingles",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Frances",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Productos",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Crear un Pedido Español",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"producto\": \"Smartphone\",\r\n    \"cantidad\": 2,\r\n    \"precio\": 700.0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/pedidos"
+			},
+			"response": []
+		},
+		{
+			"name": "Crear un Pedido ingles",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"producto\": \"Smartphone\",\r\n    \"cantidad\": 2,\r\n    \"precio\": 700.0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/pedidos"
+			},
+			"response": []
+		},
+		{
+			"name": "Crear un Pedido Frances",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"producto\": \"Smartphone\",\r\n    \"cantidad\": 2,\r\n    \"precio\": 700.0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/api/pedidos"
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Pedido Español",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/api/pedidos"
+			},
+			"response": []
+		}
+	]
+}
